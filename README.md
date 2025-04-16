@@ -62,3 +62,11 @@ Deadline: [Set your date]
 Submission format: clone / fork this repo
 
 Bonus points for creativity (custom actions, emojis, pet types, etc.)
+
+
+the screenshot of the output is 
+
+![Screenshot 2025-04-16 131420](https://github.com/user-attachments/assets/8699264b-67bb-43fb-8919-b25b0392446e)
+
+https://docs.google.com/document/d/1xVrd3rRprzRVMjGbhOKTcXRbxsilP68RAqjM1YH8naY/edit?tab=t.0
+
