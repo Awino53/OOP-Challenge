@@ -1,4 +1,4 @@
- # starter_template.py
+ # pet.py
 
 class Pet:
     def __init__(self, name):
@@ -26,6 +26,10 @@ class Pet:
         else:
             print(f"{self.name} is too tired to play.")
 
+    def get_status(self):
+        print(f"Status of {self.name}:\nHunger: {self.hunger}\nEnergy: {self.energy}\nHappiness: {self.happiness}")
+
+    # BONUS METHODS
     def train(self, trick):
         self.tricks.append(trick)
         print(f"{self.name} has learned a new trick: {trick}!")
@@ -35,10 +39,3 @@ class Pet:
             print(f"{self.name} knows these tricks: {', '.join(self.tricks)}")
         else:
             print(f"{self.name} hasn't learned any tricks yet.")
-
-    def get_status(self):
-        print(f"Status of {self.name}:")
-        print(f"  Hunger: {self.hunger}")
-        print(f"  Energy: {self.energy}")
-        print(f"  Happiness: {self.happiness}")
-    
